@@ -1,0 +1,30 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+        margin: 0;
+    }
+}
+
+.list-page {
+    padding: 12px;
+}
+
+.form-page {
+    padding: 12px;
+
+    .ant-form {
+        display: flex;
+        flex-direction: column;
+        width: 720px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-actions {
+        text-align: right;
+    }
+}

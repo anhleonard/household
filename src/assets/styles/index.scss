@@ -1,0 +1,47 @@
+$sizes: 4, 8, 12, 16, 20, 24, 36, 48, 60, 80;
+@each $size in $sizes {
+    .m-#{$size} {
+        margin: $size * 1px;
+    }
+    .mt-#{$size} {
+        margin-top: $size * 1px;
+    }
+    .mb-#{$size} {
+        margin-bottom: $size * 1px;
+    }
+    .ml-#{$size} {
+        margin-left: $size * 1px;
+    }
+    .mr-#{$size} {
+        margin-right: $size * 1px;
+    }
+
+    .p-#{$size} {
+        padding: $size * 1px;
+    }
+    .pt-#{$size} {
+        padding-top: $size * 1px;
+    }
+    .pb-#{$size} {
+        padding-bottom: $size * 1px;
+    }
+    .pl-#{$size} {
+        padding-left: $size * 1px;
+    }
+    .pr-#{$size} {
+        padding-right: $size * 1px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
